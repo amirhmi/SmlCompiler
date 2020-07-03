@@ -2,13 +2,13 @@
 ### What does it do? 
 This is a compiler for Smoola language. (You can see [Smoola Documentation](https://github.com/gsoosk/SmoolaCompiler/wiki/Smoola-Documentation))
 
-In [Phase 1](#phase1-lexer), the lexer of Smoola is made in Smoola.g4 using [Antlr](https://github.com/antlr/antlr4)
+In `Phase 1`, the lexer of Smoola is made in Smoola.g4 using [Antlr](https://github.com/antlr/antlr4)
 
-In [Phase 2](#phase2-semantics), the AST is constructed from lexical analysis and the symbol table is filled. Finally, it shows up semantic errors.
+In `Phase 2`, the AST is constructed from lexical analysis and the symbol table is filled. Finally, it shows up semantic errors.
 
-In [Phase 3](#phase3-type-checking), the remaining errors are shown and type-checking is done.
+In `Phase 3`, the remaining errors are shown and type-checking is done.
 
-In [Phase 4](#phase4-code-generation), Java bytecode of the Smoola program will be generated.
+In `Phase 4`, Java bytecode of the Smoola program will be generated.
 
 ## Phase 1 (Lexer)
 Checking grammar of language.
